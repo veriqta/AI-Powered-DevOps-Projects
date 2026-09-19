@@ -126,23 +126,6 @@ This approach keeps the work practical. Learners build early, test continuously 
 
 Role-based routes are available in [Learning Paths](docs/learning-paths.md).
 
-## Repository Structure
-
-```text
-ai-powered-devops-projects/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ PROJECT-CATALOG.md
-â”œâ”€â”€ PROJECT-STANDARDS.md
-â”œâ”€â”€ ROADMAP.md
-â”œâ”€â”€ CONTRIBUTING.md
-â”œâ”€â”€ CODE_OF_CONDUCT.md
-â”œâ”€â”€ SECURITY.md
-â”œâ”€â”€ LICENSE
-â”œâ”€â”€ docs/
-â”œâ”€â”€ projects/
-â”œâ”€â”€ shared/
-â””â”€â”€ .github/
-```
 
 | Path | Contents |
 |---|---|
