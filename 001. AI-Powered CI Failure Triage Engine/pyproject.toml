@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veriqta-ci-failure-triage"
+version = "0.1.0"
+description = "Evidence-linked GitHub Actions failure triage with optional AI explanation"
+requires-python = ">=3.11"
+license = {text = "See repository LICENSE"}
+authors = [{name = "VERIQTA"}]
+dependencies = []
+
+[project.scripts]
+ci-failure-triage = "ci_triage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
