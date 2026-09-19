@@ -1,0 +1,18 @@
+{
+  "run": {
+    "id": 1005,
+    "name": "custom-check",
+    "conclusion": "failure",
+    "html_url": "https://github.com/example/repository/actions/runs/1005"
+  },
+  "jobs": [
+    {
+      "name": "custom",
+      "conclusion": "failure",
+      "log_excerpt": [
+        "The internal widget returned state violet"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "run": {
+    "id": 1003,
+    "name": "nightly",
+    "conclusion": "failure",
+    "html_url": "https://github.com/example/repository/actions/runs/1003"
+  },
+  "jobs": [
+    {
+      "name": "integration",
+      "conclusion": "failure",
+      "log_excerpt": [
+        "write failed: No space left on device",
+        "Runner lost communication with the server"
+      ]
+    }
+  ]
+}
+

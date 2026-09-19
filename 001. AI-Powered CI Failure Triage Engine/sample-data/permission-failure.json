@@ -1,0 +1,19 @@
+{
+  "run": {
+    "id": 1004,
+    "name": "publish",
+    "conclusion": "failure",
+    "html_url": "https://github.com/example/repository/actions/runs/1004"
+  },
+  "jobs": [
+    {
+      "name": "release",
+      "conclusion": "failure",
+      "log_excerpt": [
+        "Error: Resource not accessible by integration",
+        "token=EXAMPLE_ONLY_NOT_A_SECRET"
+      ]
+    }
+  ]
+}
+

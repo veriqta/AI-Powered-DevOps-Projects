@@ -1,0 +1,29 @@
+{
+  "run": {
+    "id": 1001,
+    "name": "pull-request-checks",
+    "conclusion": "failure",
+    "html_url": "https://github.com/example/repository/actions/runs/1001",
+    "head_sha": "example001",
+    "event": "pull_request"
+  },
+  "jobs": [
+    {
+      "name": "unit-tests",
+      "conclusion": "failure",
+      "log_excerpt": [
+        "Running 42 tests",
+        "AssertionError: expected 200 but got 500",
+        "2 tests failed"
+      ]
+    },
+    {
+      "name": "lint",
+      "conclusion": "success",
+      "log_excerpt": [
+        "All checks passed"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "run": {
+    "id": 1002,
+    "name": "build",
+    "conclusion": "failure",
+    "html_url": "https://github.com/example/repository/actions/runs/1002"
+  },
+  "jobs": [
+    {
+      "name": "install",
+      "conclusion": "failure",
+      "log_excerpt": [
+        "ERROR: Could not resolve dependency conflict for package demo==9.9.9"
+      ]
+    }
+  ]
+}
+
