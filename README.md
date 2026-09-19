@@ -95,17 +95,17 @@ Projects follow the same engineering sequence:
 
 ```text
 Understand the problem
-        â†“
+        ↓
 Build the deterministic baseline
-        â†“
+        ↓
 Add the bounded AI capability
-        â†“
+        ↓
 Validate normal and unsafe outputs
-        â†“
+        ↓
 Introduce controlled failures
-        â†“
+        ↓
 Observe, troubleshoot and recover
-        â†“
+        ↓
 Document the evidence and trade-offs
 ```
 
@@ -126,6 +126,23 @@ This approach keeps the work practical. Learners build early, test continuously 
 
 Role-based routes are available in [Learning Paths](docs/learning-paths.md).
 
+## Repository Structure
+
+```text
+ai-powered-devops-projects/
+├── README.md
+├── PROJECT-CATALOG.md
+├── PROJECT-STANDARDS.md
+├── ROADMAP.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── LICENSE
+├── docs/
+├── projects/
+├── shared/
+└── .github/
+```
 
 | Path | Contents |
 |---|---|
@@ -192,7 +209,7 @@ Useful contributions include tests, failure scenarios, documentation corrections
 
 ## License
 
-Copyright Â© 2026 Ann, operating under the VERIQTA name. All rights reserved.
+Copyright © 2026 Ann, operating under the VERIQTA name. All rights reserved.
 
 The repository may be used for personal, non-commercial learning under the terms in [LICENSE](LICENSE). Learners may publish their own original implementations with the required attribution. Republishing the supplied guides, solutions, assessments or substantial repository content requires written permission.
 
@@ -203,4 +220,3 @@ VERIQTA creates practical engineering resources for DevOps, SRE, platform, cloud
 Website: [veriqta.com](https://veriqta.com)
 
 GitHub: [VERIQTA](https://github.com/veriqta)
-
