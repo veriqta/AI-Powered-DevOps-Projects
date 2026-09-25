@@ -362,10 +362,4 @@ Use GitHub Issues for reproducible documentation errors, broken exercises, and t
 
 ---
 
-## Maintained by VERIQTA
-
-VERIQTA creates practical engineering resources for DevOps, SRE, platform, cloud and production engineering.
-
-Website: [veriqta.com](https://veriqta.com)
-
-GitHub: [VERIQTA](https://github.com/veriqta)
+Build carefully. Test what you automate. Verify what AI produces. Document what you learn.

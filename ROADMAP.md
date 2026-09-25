@@ -1,49 +1,39 @@
 # Repository Roadmap
 
-This roadmap controls repository growth. Quality gates take priority over publishing speed.
+The repository is developed in release waves. A project moves to **Ready** only after its guide, code, infrastructure, tests, failure exercises, cleanup process, and expected results have been independently reviewed.
 
-## Phase 1: Foundation
+## Phase 1: Repository foundation
 
-- [x] Establish repository mission and audience.
-- [x] Publish contribution, conduct, security and licensing policies.
-- [x] Define project, architecture and AI safety standards.
-- [x] Create shared project templates.
-- [ ] Review and approve the 50-project catalogue.
-- [ ] Assign project numbers only after catalogue review.
+- Establish governance and contribution files
+- Publish the 100-project catalogue
+- Define project, architecture, AI safety, and submission standards
+- Add issue and pull request templates
+- Create all numbered project locations
 
-## Phase 2: Reference Projects
+## Phase 2: Foundational projects
 
-- [ ] Build Project 001 as the repository reference implementation.
-- [ ] Test it on supported environments.
-- [ ] Complete security and architecture review.
-- [ ] Conduct a learner usability review.
-- [ ] Use findings to revise the project template.
-- [ ] Build Projects 002–005.
+Develop and validate Projects 001, 011, 021, 031, 041, 051, 061, 071, and 081. These projects establish reusable patterns for secure model access, validation, testing, telemetry, infrastructure, and documentation.
 
-## Phase 3: Foundation Collection
+## Phase 3: Intermediate systems
 
-- [ ] Publish Projects 001–010.
-- [ ] Add role-based learning paths.
-- [ ] Add automated repository checks.
-- [ ] Review completion time and learner feedback.
-- [ ] Remove or redesign weak and duplicative projects.
+Publish the intermediate projects in each track. Reuse shared schemas, policies, fixtures, and CI components only after they have been tested in at least one complete project.
 
-## Phase 4: Intermediate and Advanced Collection
+## Phase 4: Advanced systems
 
-- [ ] Publish Projects 011–025.
-- [ ] Publish Projects 026–040.
-- [ ] Add cross-project reusable components where justified.
-- [ ] Maintain independent setup and cleanup for each project.
+Add distributed workflows, production-scale failure modes, policy enforcement, human approval, cost controls, and multi-environment deployment.
 
-## Phase 5: Senior Capstones
+## Phase 5: Capstones
 
-- [ ] Publish Projects 041–050.
-- [ ] Complete final catalogue review.
-- [ ] Verify every project remains reproducible.
-- [ ] Publish portfolio and interview guidance.
-- [ ] Establish maintenance and deprecation rules.
+Release the ten track capstones and the final AI-Powered DevOps Operations Center after their prerequisite projects are stable.
 
-## Release Rule
+## Ongoing maintenance
 
-A project moves from Planned to Ready only after its code, tests, security review, documentation and failure exercises pass. Empty folders and unfinished curricula are not counted as published projects.
+- Review dependencies and setup instructions
+- Test supported operating systems
+- Refresh screenshots and expected output
+- Track security advisories
+- Repair broken links and commands
+- Revalidate cost estimates and cloud cleanup procedures
+
+The roadmap may change when technical accuracy, security, or maintainability requires a different release order.
 

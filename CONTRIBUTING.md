@@ -1,95 +1,74 @@
-# Contributing to AI-Powered DevOps Projects
+# Contributing
 
-Thank you for helping build practical AI systems for production engineering.
+Thank you for helping improve AI-Powered DevOps Projects.
 
-## Before Contributing
+Contributions should improve technical accuracy, safety, reproducibility, accessibility, or the learning experience. Every contribution must be suitable for a public engineering repository.
 
-Read:
+## Before contributing
 
-- [Project Standards](PROJECT-STANDARDS.md)
-- [AI Safety Standards](docs/ai-safety-standards.md)
-- [Architecture Standards](docs/architecture-standards.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security Policy](SECURITY.md)
+1. Read the [Code of Conduct](CODE_OF_CONDUCT.md).
+2. Review [Project Standards](PROJECT-STANDARDS.md).
+3. Search existing issues and pull requests.
+4. Open an issue before proposing a new project or a major architectural change.
+5. Never submit credentials, private logs, customer data, proprietary code, or copyrighted course material.
 
-Do not open a pull request containing production logs, customer information, credentials or copied proprietary material.
+## Contribution types
 
-## Ways to Contribute
+Contributions may include:
 
-- Propose a project that fills a catalogue gap.
-- Improve an approved project.
-- Add tests or failure scenarios.
-- Correct technical documentation.
-- Improve accessibility or onboarding.
-- Report a security problem privately.
-- Review reproducibility on a supported environment.
+- Corrections to commands, code, diagrams, or explanations
+- Cross-platform setup improvements
+- Tests and validation scripts
+- Safer examples and stronger security controls
+- New failure scenarios and recovery procedures
+- Accessibility and documentation improvements
+- Dependency and compatibility updates
+- Complete project proposals that meet repository standards
 
-## Project Proposal Process
+## Local workflow
 
-Open a project proposal issue before creating a numbered folder. Include:
-
-1. Operational problem and affected engineering role.
-2. Evidence that the problem occurs in real workflows.
-3. Why AI is useful and what remains deterministic.
-4. Expected inputs, outputs and integrations.
-5. Threats, sensitive data and required approvals.
-6. Offline or degraded behavior.
-7. Test strategy and controlled failure scenarios.
-8. Expected portfolio evidence.
-9. Similar catalogue projects and how duplication is avoided.
-10. Estimated scope and level.
-
-A project number is assigned only after approval.
-
-## Development Workflow
-
-1. Fork the repository.
-2. Create a focused branch.
-3. Copy `projects/_template/` only for an approved project.
-4. Make small, reviewable commits.
-5. Run tests, formatting, link checks and security checks.
-6. Update documentation with behavior changes.
-7. Complete the pull request template.
-8. Respond to review without removing required safeguards.
-
-Suggested branch names:
-
-```text
-project/012-short-name
-fix/012-parser-timeout
-docs/architecture-guidance
+```bash
+git clone https://github.com/YOUR-USERNAME/AI-Powered-DevOps-Projects.git
+cd AI-Powered-DevOps-Projects
+git checkout -b type/short-description
 ```
 
-## Pull Request Requirements
+Use a descriptive branch prefix such as `docs/`, `fix/`, `feature/`, `security/`, or `project/`.
 
-A project contribution must provide:
+Run every project-specific test and validation command before opening a pull request. Include the commands and results in the pull request description.
 
-- reproducible setup and cleanup;
-- no committed secrets;
-- safe synthetic fixtures;
-- tests for normal, failure and misuse paths;
-- deterministic baseline or validation logic;
-- AI boundary, prompt and output controls;
-- architecture and data-flow documentation;
-- operational signals and cost limits;
-- supported environments and known limitations;
-- evidence that all required checks pass.
+## Pull request requirements
 
-Maintainers may request scope reduction when a contribution attempts to become a separate course.
+A pull request must:
 
-## Commit Guidance
+- Address one clear problem
+- Explain why the change is needed
+- Describe what changed
+- Include verification evidence
+- Update tests and documentation when behavior changes
+- Preserve safe defaults
+- Avoid unrelated formatting or file changes
+- Pass repository checks
 
-Use concise messages:
+Project code must include expected behavior, failure behavior, cleanup instructions, and a method for confirming that cleanup succeeded.
+
+## AI-assisted contributions
+
+AI tools may assist with research, drafting, and implementation, but contributors remain responsible for every submitted line. Verify generated commands, dependencies, citations, licenses, security assumptions, and test results. Do not submit fabricated output or claim that unexecuted code was tested.
+
+## Commit messages
+
+Use clear, focused messages:
 
 ```text
-feat(project-012): add bounded deployment evidence collector
-test(project-012): cover malformed model response
-docs(project-012): record external model boundary
-fix(project-012): reject unsafe artifact path
+fix(project-001): handle malformed workflow logs
+
+docs(project-031): clarify local cluster prerequisites
+
+test(project-051): add unreachable dependency case
 ```
 
-## Review Principles
+## Reviews
 
-Reviews prioritize correctness, operational realism, reproducibility, safety and maintainability. Large amounts of generated content do not substitute for working code or evidence.
+Maintainers may request changes for correctness, scope, safety, maintainability, or teaching quality. Approval does not transfer responsibility for third-party licenses or sensitive information to the repository.
 
-By contributing, you confirm that you have the right to submit the contribution and agree to the contribution terms in [LICENSE](LICENSE). You retain copyright in your original contribution while granting the repository owner the rights needed to use, adapt and maintain it as part of this repository.

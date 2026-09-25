@@ -1,87 +1,74 @@
 # Project Standards
 
-Every numbered project must meet these standards before it is marked Ready.
+Every published project must be useful, reproducible, safe, and honest about its limitations.
 
-## 1. Operational Relevance
+## Required learning experience
 
-The README must identify a real DevOps, SRE, platform, cloud, DevSecOps or FinOps problem, the engineer who encounters it and the operational decision the project supports.
+Each project must explain:
 
-## 2. Justified AI Use
+- The problem being solved
+- The intended users
+- The system being built
+- The final expected result
+- The prerequisites and expected cost
+- The implementation sequence
+- How to verify each milestone
+- How to troubleshoot common failures
+- How to clean up local and cloud resources
 
-State:
+## Required project resources
 
-- what the model does;
-- why deterministic logic alone is insufficient;
-- what remains deterministic;
-- what happens when AI is disabled, unavailable or wrong.
+A complete project includes, where applicable:
 
-A chatbot interface is not enough.
+- Project overview and requirements
+- Project-specific prerequisites
+- System configuration and verification
+- Numbered follow-along labs
+- Starter code
+- Working reference implementation
+- Infrastructure as code
+- Automated tests
+- Safe sample data
+- Architecture and data-flow diagrams
+- Security and threat analysis
+- CI/CD configuration
+- Observability configuration
+- Failure scenarios and recovery exercises
+- Expected terminal and report output
+- Production-readiness review
+- Interview and portfolio preparation
 
-## 3. Bounded Scope
+## Implementation rules
 
-A project is one coherent system, not a complete discipline. The required path should normally take 12–30 focused hours. Advanced extensions must be optional.
+- Pin or constrain important dependencies.
+- Keep secrets out of code, fixtures, images, and Git history.
+- Prefer deterministic logic for decisions that can be expressed as rules.
+- Treat model responses as untrusted input.
+- Validate structured model output against an explicit schema.
+- Add timeouts, bounded retries, input limits, and failure fallbacks.
+- Require approval before destructive, privileged, or costly actions.
+- Use least-privilege identities for applications, pipelines, and agents.
+- Include idempotent cleanup where practical.
+- Never claim that code was tested unless it was executed.
 
-## 4. Working Implementation
+## Testing standard
 
-Provide runnable code, setup, configuration examples, safe fixtures, expected output and cleanup. Placeholder implementations cannot be marked Ready.
+Projects must test normal behavior, invalid input, dependency failure, model failure, security controls, and cleanup. Acceptance criteria must be measurable. Tests must not require access to private production systems.
 
-## 5. Production Architecture
+## Documentation standard
 
-Document components, data flows, trust boundaries, dependencies, failure behavior and operational ownership. See [Architecture Standards](docs/architecture-standards.md).
+Write for a global public audience. Address the participant directly where natural. Define unfamiliar terms before using them. Show commands, file locations, expected results, verification, and recovery. Avoid unexplained placeholders and fabricated output.
 
-## 6. Safety and Data Handling
+## Completion gate
 
-Follow [AI Safety Standards](docs/ai-safety-standards.md). Use synthetic data by default, least privilege, bounded inputs, structured validation and human approval for high-impact actions.
+A project is marked **Ready** only when:
 
-## 7. Testing
-
-Required coverage includes:
-
-- unit tests for core logic;
-- integration tests across important boundaries;
-- malformed and oversized input;
-- timeout and dependency failure;
-- unsafe or injected content;
-- model-disabled behavior;
-- schema and evidence validation;
-- cleanup and repeatability.
-
-## 8. CI and Security Checks
-
-The project must automate relevant formatting, tests, dependency review, secret scanning and artifact checks. Workflows must use least privilege and pinned actions where practical.
-
-## 9. Observability and Cost
-
-Document useful logs, metrics, traces or audit events. Bound model requests, retries, tokens and cost. Avoid logging sensitive prompts and model content.
-
-## 10. Failure Exercises
-
-Include controlled failures with expected signals, investigation steps, evidence and recovery. Learners must explain why the failure occurred, not only copy a fix.
-
-## 11. Documentation
-
-Each project must include:
-
-- public README;
-- prerequisites;
-- architecture;
-- setup and cleanup;
-- usage;
-- tests;
-- security and data notes;
-- failure exercises;
-- limitations;
-- portfolio evidence checklist.
-
-## 12. Completion Gate
-
-A project is complete when:
-
-- a fresh clone can follow setup successfully;
-- tests pass without hidden services;
-- AI failure does not create unsafe behavior;
-- no real secrets or sensitive data are present;
-- expected outputs match the documentation;
-- architecture and operational evidence are reviewable;
-- cleanup removes only project-created resources.
+- A clean environment can follow the documented setup
+- The complete build works from beginning to end
+- Tests pass
+- Failure exercises can be reproduced safely
+- Cleanup is verified
+- Security and AI safety reviews are complete
+- Expected results match actual results
+- Links, commands, and file paths have been checked
 

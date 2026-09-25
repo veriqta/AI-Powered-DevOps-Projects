@@ -1,33 +1,38 @@
 # Code of Conduct
 
-## Our Commitment
+## Our commitment
 
-We are committed to a respectful, inclusive and professional community for people of every background and experience level.
+This community is committed to providing a respectful, safe, and inclusive environment for everyone, regardless of experience level, identity, background, location, or ability.
 
-## Expected Behavior
+## Expected behavior
 
-- Communicate with patience and technical clarity.
-- Critique work, not people.
-- Support claims with reproducible evidence.
-- Respect different environments, constraints and learning speeds.
-- Protect private and sensitive information.
-- Credit contributors and external sources.
-- Accept correction and review in good faith.
+Community members are expected to:
 
-## Unacceptable Behavior
+- Communicate respectfully and professionally
+- Give constructive, specific feedback
+- Welcome questions asked in good faith
+- Respect different levels of experience
+- Credit the work and ideas of others
+- Protect confidential and personal information
+- Focus technical disagreements on evidence and engineering trade-offs
 
-- Harassment, discrimination or personal attacks.
-- Publishing another person's private information.
-- Deliberately unsafe instructions or concealed malicious code.
-- Fabricated test evidence or misleading project claims.
-- Plagiarism or removal of required attribution.
-- Repeated disruption of technical discussion.
+## Unacceptable behavior
+
+The following behavior is not accepted:
+
+- Harassment, intimidation, discrimination, or personal attacks
+- Sexualized language or unwanted attention
+- Publishing another person's private information
+- Deliberate disruption of discussions or project work
+- Plagiarism or misrepresentation of work
+- Sharing malicious code as a safe exercise
+- Pressuring contributors to disclose credentials or private data
 
 ## Enforcement
 
-Report conduct concerns privately to the repository maintainers through the contact method configured in the repository security settings. Maintainers may edit or remove content, close contributions, restrict participation or take other proportionate action.
+Report conduct concerns privately using the contact method maintained by the repository owner. Reports will be reviewed fairly and kept confidential where possible. Maintainers may edit or remove contributions, restrict participation, or permanently remove individuals whose behavior threatens the community.
 
 ## Scope
 
-This policy applies in repository issues, pull requests, discussions, reviews and community spaces representing this project.
+This Code of Conduct applies in repository discussions, issues, pull requests, reviews, and other spaces officially associated with the project.
 

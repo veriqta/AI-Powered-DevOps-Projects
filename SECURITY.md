@@ -1,45 +1,38 @@
 # Security Policy
 
-## Supported Content
+## Reporting a vulnerability
 
-Security fixes are accepted for the current default branch and active project releases listed in the project catalogue.
+Do not disclose suspected vulnerabilities in public issues, discussions, pull requests, screenshots, or demonstration videos.
 
-## Reporting a Vulnerability
+Use GitHub private vulnerability reporting when it is enabled for this repository. Include:
 
-Do not publish an exploitable vulnerability, credential or sensitive dataset in a public issue.
+- The affected project and file
+- The observed behavior
+- Reproduction steps using safe data
+- The possible impact
+- Suggested mitigation, if known
+- Whether credentials or sensitive information may have been exposed
 
-Use GitHub private vulnerability reporting when enabled. Otherwise, contact the maintainers through the private security contact listed in the repository profile.
+Do not test against systems, accounts, repositories, or data without explicit authorization.
 
-Include:
+## Supported content
 
-- affected path and version;
-- clear reproduction steps using safe data;
-- potential impact;
-- suggested mitigation, if known;
-- whether public disclosure has occurred.
+Security fixes are prioritized for projects marked **Ready** or **Maintenance**. Planned and in-development projects may change significantly before release.
 
-Do not access systems or data you do not own or have permission to test.
+## Sensitive information
 
-## Repository Data Rules
+Never submit:
 
-Never commit:
+- API keys, passwords, tokens, or private keys
+- Real customer or employee data
+- Private infrastructure addresses or account identifiers
+- Unredacted production logs
+- Proprietary source code
+- Exploit material that creates unnecessary public risk
 
-- API keys, tokens, passwords or private keys;
-- production logs or customer data;
-- personal information;
-- confidential prompts or proprietary runbooks;
-- live cloud account identifiers;
-- unlicensed datasets or model outputs.
+If a secret is accidentally committed, revoke or rotate it immediately. Removing it from the latest commit is not sufficient because it may remain in Git history.
 
-Use synthetic fixtures and documentation-only network addresses. If a real secret is exposed, stop using it, rotate it and follow the affected provider's incident procedure.
+## Safe research
 
-## AI-Specific Security
-
-Projects must treat model responses as untrusted. They must validate output before it reaches automation, keep high-impact actions behind approval and document external data processing.
-
-Prompt injection discovered in a fixture should be reported as a project test case. Prompt injection affecting a working integration or exposing data should be reported privately.
-
-## Safe Research
-
-Good-faith research must remain within authorized environments, minimize data access and avoid service disruption. This policy does not authorize testing of third-party systems.
+Use synthetic fixtures and isolated environments. Follow project cleanup instructions and verify that cloud resources have been removed. AI-generated commands must be reviewed before execution and must never receive broader permissions than the project requires.
 

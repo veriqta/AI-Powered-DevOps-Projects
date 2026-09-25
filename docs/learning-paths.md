@@ -1,53 +1,26 @@
 # Learning Paths
 
-Projects will be numbered by catalogue order, not by a single required sequence. Use these paths after the 50 projects are approved.
+The project numbers organize the catalogue. They do not prescribe one mandatory order.
 
-## DevOps Engineer
+## DevOps engineer
 
-Prioritize projects involving delivery pipelines, deployment evidence, infrastructure changes, containers, observability and safe operational automation.
+Begin with 001, 005, 021, 031, 041, 051, 071, and 081. Continue through CI/CD, cloud operations, and infrastructure as code.
 
-Recommended progression:
+## Site reliability engineer
 
-1. Foundation projects with local or simulated environments.
-2. CI/CD and Infrastructure as Code projects.
-3. Container and Kubernetes projects.
-4. Cross-system incident and production-change projects.
+Begin with 011, 013, 014, 021, 024, 083, and 089. Continue through incident intelligence, observability, resilience, and recovery.
 
-## Site Reliability Engineer
+## Platform engineer
 
-Prioritize telemetry, SLOs, incident evidence, capacity, dependency failure and reliability decision support.
+Begin with 031, 041, 061, 062, 063, and 064. Continue toward 070, 091, 093, and 097.
 
-A strong SRE portfolio should demonstrate:
+## DevSecOps engineer
 
-- evidence-based incident analysis;
-- separation of symptoms, hypotheses and causes;
-- bounded model behavior;
-- measurable reliability outcomes;
-- safe degraded modes.
+Begin with 032, 043, 051, 052, 053, and 054. Continue toward 055, 057, 058, 060, and 098.
 
-## Platform Engineer
+## Cloud and infrastructure engineer
 
-Prioritize service onboarding, golden paths, policy feedback, developer self-service, Kubernetes platforms and internal product telemetry.
+Begin with 039, 041, 042, 049, 071, and 081. Continue into capacity, multi-region design, recovery, and governed infrastructure change.
 
-Show how AI improves a platform workflow without hiding policy or operational ownership.
-
-## Cloud Engineer
-
-Prioritize Infrastructure as Code, cloud configuration, drift, cost, identity, network and managed-service evidence. Use emulators or isolated training accounts where possible.
-
-## DevSecOps Engineer
-
-Prioritize software supply chain, vulnerability evidence, policy-as-code, secrets prevention and risk prioritization. AI may explain or rank evidence, but scanners and policies remain authoritative.
-
-## Choosing a Project
-
-Select a project based on:
-
-- the role you want;
-- tools you can run safely;
-- the evidence you can demonstrate;
-- the operational concept you need to strengthen;
-- the time available.
-
-Do not select only by project number. Complete prerequisites listed in each project.
+Complete each project's prerequisites before beginning its labs. Advanced and capstone projects may list required predecessor projects.
 

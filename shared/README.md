@@ -1,12 +1,9 @@
 # Shared Resources
+This directory contains reviewed resources that are reusable across multiple projects.
 
-Shared resources must solve a repeated need across several approved projects. Do not move project-specific code here prematurely.
-
-- [templates](templates/README.md): reusable documentation
-- [schemas](schemas/README.md): versioned data contracts
-- [policies](policies/README.md): machine-readable safety and engineering policies
-- [sample-data](sample-data/README.md): safe cross-project fixtures
-- [reusable-actions](reusable-actions/README.md): reviewed CI building blocks
-
-Every shared resource needs an owner, version, compatibility notes, tests where applicable and a list of consuming projects.
+- `templates/` contains reusable documentation and engineering templates.
+- `schemas/` contains machine-readable validation schemas.
+- `policies/` contains reusable security and AI policy examples.
+- `sample-data/` contains synthetic, non-sensitive fixtures.
+- `reusable-actions/` contains reviewed CI components.
 

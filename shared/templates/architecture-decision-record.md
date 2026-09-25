@@ -1,27 +1,26 @@
-# ADR-NNN: Decision Title
+# ADR-NNN: Decision title
 
 - Status: Proposed
-- Date:
-- Owners:
-- Review trigger:
+- Date: YYYY-MM-DD
+- Owners: Team or role
 
 ## Context
 
-Describe the operational problem, constraints and evidence.
+Describe the problem, constraints, and forces affecting the decision.
+
+## Options considered
+
+Describe credible options and their trade-offs.
 
 ## Decision
 
-State the chosen approach precisely.
-
-## Alternatives
-
-List credible alternatives and why they were not selected.
+State the selected approach and why it was selected.
 
 ## Consequences
 
-Record benefits, costs, risks and operational responsibilities.
+Document security, reliability, cost, performance, maintenance, and operational effects.
 
-## Verification
+## Review conditions
 
-State how the decision will be tested or reviewed.
+State when this decision should be reconsidered.
 

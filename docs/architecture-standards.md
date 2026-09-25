@@ -1,51 +1,17 @@
 # Architecture Standards
 
-Architecture documentation must help another engineer understand behavior, risk and ownership.
+Every project must document the system boundary, users, components, data stores, external dependencies, data flows, trust boundaries, deployment environments, and operational ownership.
 
-## Required Views
+Diagrams must match the implementation. Use separate diagrams when one image cannot clearly show context, containers, deployment, security boundaries, and runtime data flow.
 
-### System Context
+Architecture decisions should record:
 
-Show users, the project system and external dependencies.
+- The decision and its status
+- The problem and constraints
+- Options considered
+- The selected approach
+- Security, reliability, cost, and maintenance consequences
+- Conditions that would justify revisiting the decision
 
-### Component View
-
-Show the main services, modules, stores, queues, policy engines and interfaces.
-
-### Data Flow
-
-Show important inputs, transformations, storage, outputs and external transfers. Label sensitive data and trust boundaries.
-
-### Runtime or Deployment View
-
-Show where components run, how they communicate and which permissions they require.
-
-## Required Written Decisions
-
-Document:
-
-- operational problem and users;
-- component responsibilities;
-- authoritative deterministic controls;
-- AI responsibility and boundary;
-- data classification and retention;
-- authentication and authorization;
-- time, size, retry and cost limits;
-- degraded behavior;
-- observability;
-- cleanup and recovery.
-
-## Diagram Rules
-
-- Use stable component names.
-- Keep a diagram focused on one relationship.
-- Label directional flows.
-- Distinguish required from optional paths.
-- Mark external services and human approval.
-- Keep diagrams in editable, version-controlled form.
-- Update diagrams when implementation behavior changes.
-
-## Decision Records
-
-Use short architecture decision records for consequential choices. Each record should state context, decision, alternatives, consequences and review trigger.
+Avoid diagrams that imply AI can act directly on production without identity, authorization, validation, approval, and audit controls.
 

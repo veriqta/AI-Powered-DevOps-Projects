@@ -1,56 +1,19 @@
 # Submission Guidelines
 
-A completed project should be understandable and reproducible without a private explanation from its author.
+Create a separate repository for a completed project or maintain a clearly organized portfolio repository.
 
-## Required Submission Evidence
+A strong submission includes:
 
-- repository URL and project ID;
-- completed project README;
-- architecture and data-flow diagram;
-- setup and cleanup record;
-- test and CI results;
-- example normal output;
-- example degraded or failure output;
-- security and data-handling explanation;
-- model-disabled or deterministic fallback result;
-- limitations and next improvements;
-- short demonstration video or annotated screenshots.
+- A clear problem statement
+- An architecture diagram
+- Setup and cleanup instructions
+- Original implementation notes
+- Test and acceptance evidence
+- Sanitized screenshots or demonstration output
+- Failure investigation and recovery evidence
+- Security and AI safety decisions
+- Cost and performance observations
+- Known limitations and future improvements
 
-## Learner Repository
-
-You may document work in your own repository. Preserve the upstream project ID and link to the original project. State clearly which work is yours and which files came from the reference project.
-
-Recommended structure:
-
-```text
-project-012-name/
-├── README.md
-├── src/
-├── tests/
-├── sample-data/
-├── docs/
-│   ├── architecture.md
-│   ├── decisions/
-│   ├── security.md
-│   └── evidence.md
-├── scripts/
-├── .github/workflows/
-└── LICENSE
-```
-
-## Evidence Quality
-
-Evidence must be:
-
-- produced by the submitted implementation;
-- reproducible from documented commands;
-- free from secrets and production data;
-- connected to a requirement or decision;
-- honest about failures and limitations.
-
-Do not submit copied outputs, fabricated CI screenshots or unreviewed model claims.
-
-## Final Review
-
-Before submission, clone into a clean location, follow the README and run every required command. A reviewer should be able to reproduce the primary outcome and at least one failure scenario.
+Do not copy the reference implementation and present it as original work. Explain changes, trade-offs, mistakes, and lessons learned in your own words. Remove credentials, private endpoints, account identifiers, and personal data before publishing.
 

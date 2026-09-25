@@ -1,109 +1,26 @@
-AI-POWERED DEVOPS PROJECTS PUBLIC REPOSITORY LICENSE
+VERIQTA SOURCE-AVAILABLE LICENSE
 Version 1.0, 2026
 
-Copyright (c) 2026 Ann, operating under the VERIQTA name.
-All rights reserved.
+Copyright (c) 2026 VERIQTA. All rights reserved.
 
-1. Ownership
+Permission is granted to view, download, and use this repository's materials for personal, non-commercial learning and portfolio development.
 
-The original source code, documentation, project specifications, diagrams,
-templates, educational materials, branding, and other original content in this
-repository are owned by Ann, operating under the VERIQTA name, unless a file
-or credited third-party component states otherwise.
+You may modify project code and documentation for your own learning and may publish your own original implementation, provided that you clearly identify your changes and do not present VERIQTA materials or reference implementations as your original authorship.
 
-2. Public Access
+You may not, without prior written permission:
 
-This repository is publicly accessible for viewing, learning, review, and
-community participation. Public availability does not place the material in
-the public domain and does not make this an open-source license.
+1. Sell, license, sublicense, or commercially redistribute this repository or substantial portions of it.
+2. Repackage the materials as a course, book, membership product, training programme, project bundle, or competing repository.
+3. Copy or reproduce substantial portions of the instructional text, project guides, labs, assessments, diagrams, templates, or reference implementations.
+4. Remove copyright, attribution, trademark, or authorship notices.
+5. Use the VERIQTA name, logo, or branding in a way that suggests endorsement, partnership, or ownership.
+6. use the materials to train, fine-tune, or build a commercial machine-learning dataset or model without written permission.
 
-3. Personal Educational Permission
+Contributions intentionally submitted to this repository may be incorporated into the repository under this license. Contributors retain copyright in their original contributions and grant VERIQTA a perpetual, worldwide, non-exclusive right to use, modify, reproduce, publish, distribute, and maintain those contributions as part of this repository.
 
-You may:
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. VERIQTA IS NOT LIABLE FOR ANY CLAIM, DAMAGE, DATA LOSS, SERVICE INTERRUPTION, CLOUD CHARGE, SECURITY INCIDENT, OR OTHER LIABILITY ARISING FROM USE OF THE MATERIALS.
 
-a. view and study the repository;
-b. run the projects locally for personal, non-commercial education;
-c. fork the repository through GitHub for personal learning or for preparing
-   a contribution to this repository;
-d. create and publish your own original project implementation based on the
-   learning objectives, provided that you clearly identify your work as your
-   own, credit VERIQTA as the source of the project guide, and link to the
-   original repository; and
-e. quote short portions for commentary, review, or academic discussion when
-   attribution is provided.
+This license does not grant permission to use third-party software beyond the terms of its own license.
 
-4. Restrictions
-
-Without prior written permission from the copyright owner, you may not:
-
-a. copy, mirror, reproduce, or redistribute a substantial portion of this
-   repository outside the permissions in Section 3;
-b. sell, license, sublicense, bundle, or commercially distribute the
-   repository or a substantial derivative of its educational content;
-c. use the material as the primary content of a paid course, subscription,
-   book, training platform, assessment bank, or commercial project library;
-d. remove copyright, attribution, license, or provenance notices;
-e. represent the original VERIQTA materials as your own;
-f. use the VERIQTA name, logo, visual identity, or marks to imply sponsorship,
-   endorsement, partnership, or ownership; or
-g. use the repository or its content to violate applicable law, access systems
-   without authorization, expose sensitive information, or cause harm.
-
-5. Portfolio and Learner Work
-
-Learners may document their own code, architecture decisions, test evidence,
-screenshots, reflections, and original project implementation in a personal
-portfolio or public repository. Learners must not republish the supplied
-solutions, assessments, complete guides, or substantial copies of the original
-repository as their own material.
-
-Recommended attribution:
-
-Based on the AI-Powered DevOps Projects learning repository by VERIQTA:
-https://github.com/veriqta/ai-powered-devops-projects
-
-6. Contributions
-
-By intentionally submitting a contribution to this repository, you confirm
-that you have the right to submit it. You retain copyright in your original
-contribution. You grant Ann, operating under the VERIQTA name, a perpetual,
-worldwide, non-exclusive, royalty-free right to use, reproduce, modify, adapt,
-publish, distribute, display, sublicense, and incorporate that contribution
-into this repository and related VERIQTA materials.
-
-A contribution does not transfer ownership of the VERIQTA repository,
-curriculum, project collection, branding, or pre-existing material to the
-contributor.
-
-7. Third-Party Components
-
-Third-party software, actions, libraries, data, trademarks, and other material
-remain subject to their own licenses and terms. Their inclusion does not change
-those rights or grant ownership to VERIQTA.
-
-8. Commercial Permission
-
-Commercial use, redistribution, training use, translation for redistribution,
-publication, or licensing requires prior written permission from the copyright
-owner. Permission may be granted under a separate written agreement.
-
-9. No Warranty
-
-THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR
-A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
-
-10. Limitation of Liability
-
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT OWNER AND CONTRIBUTORS
-WILL NOT BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY ARISING FROM
-THE MATERIAL OR ITS USE.
-
-11. Reservation of Rights
-
-All rights not expressly granted in this license are reserved by the copyright
-owner.
-
-For permissions beyond this license, contact VERIQTA through the official
-repository owner profile.
+For permissions outside this license, contact the repository owner through the official VERIQTA channel.
 
